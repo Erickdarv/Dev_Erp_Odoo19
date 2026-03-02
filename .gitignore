@@ -1,0 +1,16 @@
+# Ignorar repositorios base de Odoo
+odoo19-server/
+enterprise/
+
+# Python y entornos
+venv/
+__pycache__/
+*.pyc
+
+# Archivos de Odoo (Seguridad y peso)
+*.conf
+*.log
+.filestore/
+.sessions/
+*.zip
+*.dump
